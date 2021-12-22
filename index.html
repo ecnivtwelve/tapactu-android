@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>tapactu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <body>
+        <div id="topbar">
+            <img src="assets/logo.svg" class="logo">
+        </div>
+
+        <div id="app">
+
+        <div class="category">
+            <h2 class="categoryTitle">Stories</h2>
+            <p class="categorytext">Le résumé de l’info en 1 minute</p>
+            <div class="stories">
+                <div class="story sftv" onclick="story_ftv()"></div>
+                <div class="story sf24" onclick="story_f24()"></div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="categoryTitle">Informations</h2>
+            <p class="categorytext">Un simple brief des informations</p>
+            <div class="news news-all">
+                <div class="placeholder"></div>
+                <div class="placeholder pl2"></div>
+                <div class="placeholder pl3"></div>
+                <div class="placeholder pl4"></div>
+            </div>
+        </div>
+
+        </div>
+
+        <div id="bottombar">
+            <a href="index.html" class="icon-tab sel">
+                <img src="assets/icon_home.svg" class="ic">
+                <p>Accueil</p>
+            </a>
+            <a href="articles.html" class="icon-tab">
+                <img src="assets/icon_active.svg" class="ic">
+                <p>Articles</p>
+            </a>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/rss-parser.min.js"></script>
+        <script src="js/app.js"></script>
+
+        <script>
+            show_mainInfo();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "short_name": "Tapatcu",
+    "name": "Tapactu",
+    "theme_color": "#2F3139",
+    "background_color": "#2F3139",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "icons/icon-96.png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "icons/icon-256.png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "icons/icon-512.png",
+        "sizes": "512x512"
+      }
+    ]
+  }
