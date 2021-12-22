@@ -1,6 +1,9 @@
 # tapactu
-L'actualité pour tous, du bout des doigts.
-Une application open-source pour lire l'info sous forme de "story"
+**L'actualité pour tous, du bout des doigts.**
+
+_Une application open-source pour lire l'info sous forme de "story"._
+
+Fabriqué avec Javascript et Capacitor
 
 ![screenshot](https://i.ibb.co/31h9Vgq/Accueil.png)
 
