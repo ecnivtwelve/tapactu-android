@@ -2,7 +2,7 @@
 L'actualité pour tous, du bout des doigts.
 Une application open-source pour lire l'info sous forme de "story"
 
-![screenshot](https://i.ibb.co/k3YJBY8/Accueil.png)
+![screenshot](https://i.ibb.co/31h9Vgq/Accueil.png)
 
 ## Politique de confidentialité.
 Tapactu (ou Nepity) ne collecte AUCUNE information vous concernant via l'application Tapactu.
